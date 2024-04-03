@@ -24,7 +24,7 @@ const Navbar = () => {
           <img className="invert p-1 w-8" src="icons/Github.svg" alt="Github" />
           <a
             className="font-bold px-1 "
-            href="https://github.com/Farmaan16"
+            href="https://github.com/Farmaan16/PassVault.git"
             target="_blank"
           >
             Github

@@ -47,17 +47,6 @@ const Manager = () => {
     } else {
       alert("Please fill all the fields");
     }
-    toast("Password saved", {
-      position: "bottom-left",
-      autoClose: 1200,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-      transition: Zoom,
-    });
   };
   const deletePassword = (id) => {
     console.log("Deleting password with id", id);

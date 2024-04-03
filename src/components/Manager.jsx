@@ -56,17 +56,6 @@ const Manager = () => {
       setpasswordArray(updatedPasswords);
       localStorage.setItem("passwords", JSON.stringify(updatedPasswords));
     }
-    toast("Password Deleted", {
-      position: "bottom-left",
-      autoClose: 1200,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "dark",
-      transition: Zoom,
-    });
 
     // console.log(...passwordArray, form);
   };
@@ -105,10 +94,9 @@ const Manager = () => {
         draggable
         pauseOnHover
         theme="dark"
-        transition:Zoom
+        transition="Zoom"
       />
-      {/* Same as */}
-      <ToastContainer />
+
       {/* Same as */}
       <ToastContainer />
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
